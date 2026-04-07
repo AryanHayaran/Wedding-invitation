@@ -1,26 +1,193 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-deep: #120818;
+  --bg-mid: #261028;
+  --bg-light: #3d1838;
+  --sage: #6b2e52;
+  --sage-light: #a86488;
+  --gold: #c9a84c;
+  --gold-light: #e8c96a;
+  --gold-dark: #a07828;
+  --cream: #fdf0f4;
+  --cream-muted: rgba(253, 240, 244, 0.72);
+  --glass-bg: rgba(253, 240, 244, 0.058);
+  --glass-bg-hover: rgba(253, 240, 244, 0.09);
+  --glass-border: rgba(253, 240, 244, 0.15);
+  --glass-inner-top: rgba(253, 240, 244, 0.24);
+  --glass-inner-bottom: rgba(0, 0, 0, 0.1);
+  --glass-shadow: rgba(18, 8, 24, 0.5);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-montserrat);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg-deep);
+  --color-foreground: var(--cream);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(160deg,
+    var(--bg-deep) 0%,
+    var(--bg-mid) 35%,
+    var(--bg-light) 65%,
+    var(--sage) 85%,
+    #8a4468 100%
+  );
+  background-attachment: fixed;
+  color: var(--cream);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Glass Morphism ─── */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(28px) saturate(200%) brightness(1.08);
+  -webkit-backdrop-filter: blur(28px) saturate(200%) brightness(1.08);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 16px 48px var(--glass-shadow),
+    0 4px 16px rgba(0, 0, 0, 0.2),
+    inset 0 1.5px 0 var(--glass-inner-top),
+    inset 0 -1px 0 var(--glass-inner-bottom);
+  border-radius: 24px;
+}
+
+.glass-sm {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 8px 24px var(--glass-shadow),
+    inset 0 1px 0 var(--glass-inner-top);
+  border-radius: 16px;
+}
+
+.glass-pill {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 4px 16px var(--glass-shadow),
+    inset 0 1px 0 var(--glass-inner-top);
+  border-radius: 9999px;
+}
+
+/* ─── Typography ─── */
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.gold-text {
+  background: linear-gradient(
+    135deg,
+    var(--gold-dark) 0%,
+    var(--gold) 30%,
+    var(--gold-light) 50%,
+    var(--gold) 70%,
+    var(--gold-dark) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--gold-dark) 20%,
+    var(--gold) 50%,
+    var(--gold-dark) 80%,
+    transparent 100%
+  );
+}
+
+/* ─── Keyframe Animations ─── */
+@keyframes float-petal {
+  0% {
+    transform: translateY(108vh) rotate(0deg) translateX(0px);
+    opacity: 0;
+  }
+  8% { opacity: 1; }
+  85% { opacity: 0.5; }
+  100% {
+    transform: translateY(-15vh) rotate(540deg) translateX(60px);
+    opacity: 0;
+  }
+}
+
+@keyframes float-bokeh {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+  15% { opacity: 0.6; }
+  85% { opacity: 0.2; }
+  100% {
+    transform: translateY(-90vh) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow:
+      0 16px 48px var(--glass-shadow),
+      0 0 0 0 rgba(201, 168, 76, 0);
+  }
+  50% {
+    box-shadow:
+      0 16px 48px var(--glass-shadow),
+      0 0 32px 4px rgba(201, 168, 76, 0.15);
+  }
+}
+
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(8px); opacity: 0.5; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 2px;
 }
