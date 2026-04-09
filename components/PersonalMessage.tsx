@@ -8,7 +8,10 @@ interface PersonalMessageProps {
   withFamily: boolean;
 }
 
-export default function PersonalMessage({ name, withFamily }: PersonalMessageProps) {
+export default function PersonalMessage({
+  name,
+  withFamily,
+}: PersonalMessageProps) {
   const salutation = name
     ? `Dear ${name}${withFamily ? " & Family" : ""},`
     : "Dear Guest,";
@@ -39,7 +42,10 @@ export default function PersonalMessage({ name, withFamily }: PersonalMessagePro
         Personal Invitation
       </motion.div>
 
-      <GlassCard className="w-full max-w-2xl px-10 py-12 text-center" hover={false}>
+      <GlassCard
+        className="w-full max-w-2xl px-10 py-12 text-center"
+        hover={false}
+      >
         {/* Decorative quote mark */}
         <div
           className="font-display text-7xl leading-none mb-2 opacity-20 gold-text"
@@ -111,7 +117,7 @@ export default function PersonalMessage({ name, withFamily }: PersonalMessagePro
           className="mt-8 font-display italic gold-text"
           style={{ fontSize: "clamp(1.2rem, 3vw, 1.6rem)" }}
         >
-          — Manisha &amp; Arun
+          Mahesh &amp; Shilpa
         </motion.div>
       </GlassCard>
     </section>

@@ -124,7 +124,7 @@ export default function InvitePage({ name, withFamily }: InvitePageProps) {
             className="font-display italic gold-text"
             style={{ fontSize: "clamp(1.6rem, 5vw, 2.6rem)" }}
           >
-            Manisha &amp; Arun
+            Mahesh &amp; Shilpa
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -134,7 +134,7 @@ export default function InvitePage({ name, withFamily }: InvitePageProps) {
             className="font-body text-xs tracking-[0.25em] uppercase mt-2"
             style={{ color: "var(--cream-muted)" }}
           >
-            New Delhi · April–May 2026
+            Kushinagar, Uttar Pradesh · May 2026
           </motion.p>
         </footer>
       </div>

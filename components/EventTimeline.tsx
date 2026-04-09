@@ -4,26 +4,25 @@ import { motion } from "framer-motion";
 import GlassCard from "./GlassCard";
 import ParallaxLayer from "./ParallaxLayer";
 
-const PRATAP =
-  "RZB – 141 Pratap Garden, Bindapur, Uttam Nagar, New Delhi";
+const PRATAP = "RZB – 141 Pratap Garden, Bindapur, Uttam Nagar, New Delhi";
 const CASA =
   "CASA ROYAL BANQUET, Metro Pillar 610, 177A West, Before Block A1, Janakpuri, New Delhi 110058";
 
 const events = [
   {
     title: "Haldi & Mehndi",
-    date: "29 April 2026",
+    date: "4 May 2026",
     time: "Evening",
-    venue: PRATAP,
+    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
     icon: "🌿",
     description:
       "Start the celebrations with colour and tradition — haldi blessings and intricate mehndi artistry.",
   },
   {
     title: "Wedding Ceremony",
-    date: "30 April 2026",
+    date: "5 May 2026",
     time: "8:00 PM onwards",
-    venue: CASA,
+    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
     icon: "💍",
     description:
       "The main event — an evening of vows, rituals, and memories that will last a lifetime.",
@@ -31,12 +30,12 @@ const events = [
   },
   {
     title: "Vidai",
-    date: "1 May 2026",
+    date: "7 May 2026",
     time: "Morning",
-    venue: PRATAP,
+    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
     icon: "🌸",
     description:
-      "A bittersweet and beautiful farewell as Manisha begins her new journey.",
+      "A bittersweet and beautiful farewell as Mahesh begins her new journey.",
   },
 ];
 

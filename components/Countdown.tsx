@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const WEDDING_DATE = new Date("2026-04-30T20:00:00");
+const WEDDING_DATE = new Date("2026-05-05T20:00:00");
 
 interface TimeLeft {
   days: number;
@@ -115,7 +115,8 @@ export default function Countdown() {
         className="font-body text-sm mb-12 text-center"
         style={{ color: "var(--cream-muted)" }}
       >
-        30 April 2026 · 8:00 PM · Casa Royal Banquet, New Delhi
+        5 May 2026 · 8:00 PM · Paterha Maglpur, Post Dandopur, District
+        Kushinagar, Uttar Pradesh
       </motion.p>
 
       {timeLeft !== null && (

@@ -15,7 +15,14 @@ function BrideAvatar() {
       {/* Bun */}
       <ellipse cx="65" cy="20" rx="16" ry="12" fill="#6b2e52" />
       {/* Maang tikka */}
-      <line x1="65" y1="20" x2="65" y2="36" stroke="#c9a84c" strokeWidth="1.2" />
+      <line
+        x1="65"
+        y1="20"
+        x2="65"
+        y2="36"
+        stroke="#c9a84c"
+        strokeWidth="1.2"
+      />
       <circle cx="65" cy="38" r="3.5" fill="#c9a84c" />
       {/* Flowers in bun */}
       <circle cx="53" cy="16" r="4.5" fill="#e8c96a" />
@@ -32,46 +39,155 @@ function BrideAvatar() {
       <circle cx="57" cy="47" r="1.8" fill="#3d1838" />
       <circle cx="73" cy="47" r="1.8" fill="#3d1838" />
       {/* Lips */}
-      <path d="M59 56 Q65 60 71 56" stroke="#a06070" strokeWidth="1.5" strokeLinecap="round" fill="none" />
+      <path
+        d="M59 56 Q65 60 71 56"
+        stroke="#a06070"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        fill="none"
+      />
       {/* Bindi */}
       <circle cx="65" cy="40" r="2.2" fill="#c9a84c" />
       {/* Earrings */}
       <circle cx="46" cy="50" r="3" fill="#c9a84c" />
-      <line x1="46" y1="53" x2="46" y2="60" stroke="#c9a84c" strokeWidth="1.2" />
+      <line
+        x1="46"
+        y1="53"
+        x2="46"
+        y2="60"
+        stroke="#c9a84c"
+        strokeWidth="1.2"
+      />
       <circle cx="46" cy="62" r="2.5" fill="#e8c96a" />
       <circle cx="84" cy="50" r="3" fill="#c9a84c" />
-      <line x1="84" y1="53" x2="84" y2="60" stroke="#c9a84c" strokeWidth="1.2" />
+      <line
+        x1="84"
+        y1="53"
+        x2="84"
+        y2="60"
+        stroke="#c9a84c"
+        strokeWidth="1.2"
+      />
       <circle cx="84" cy="62" r="2.5" fill="#e8c96a" />
       {/* Neck */}
       <rect x="60" y="67" width="10" height="11" rx="2" fill="#fde8ec" />
       {/* Necklace */}
-      <path d="M50 72 Q65 80 80 72" stroke="#c9a84c" strokeWidth="1.8" fill="none" />
+      <path
+        d="M50 72 Q65 80 80 72"
+        stroke="#c9a84c"
+        strokeWidth="1.8"
+        fill="none"
+      />
       <circle cx="65" cy="78" r="3.5" fill="#c9a84c" />
       <circle cx="55" cy="74" r="2" fill="#e8c96a" />
       <circle cx="75" cy="74" r="2" fill="#e8c96a" />
       {/* Choli */}
       <path d="M44 78 Q65 72 86 78 L88 104 Q65 110 42 104 Z" fill="#6b2e52" />
-      <path d="M44 78 Q65 73 86 78" stroke="#c9a84c" strokeWidth="1.5" fill="none" />
-      <path d="M42 104 Q65 110 88 104" stroke="#c9a84c" strokeWidth="1.5" fill="none" />
+      <path
+        d="M44 78 Q65 73 86 78"
+        stroke="#c9a84c"
+        strokeWidth="1.5"
+        fill="none"
+      />
+      <path
+        d="M42 104 Q65 110 88 104"
+        stroke="#c9a84c"
+        strokeWidth="1.5"
+        fill="none"
+      />
       {/* Dupatta */}
-      <path d="M44 80 Q30 90 24 108 Q18 126 20 148 Q22 164 28 176" stroke="rgba(201,168,76,0.55)" strokeWidth="4" fill="none" strokeLinecap="round" />
+      <path
+        d="M44 80 Q30 90 24 108 Q18 126 20 148 Q22 164 28 176"
+        stroke="rgba(201,168,76,0.55)"
+        strokeWidth="4"
+        fill="none"
+        strokeLinecap="round"
+      />
       {/* Lehenga */}
-      <path d="M42 104 Q65 112 88 104 L104 192 Q82 205 65 207 Q48 205 26 192 Z" fill="#a86488" />
-      <path d="M46 112 L34 196" stroke="rgba(201,168,76,0.25)" strokeWidth="1.2" />
-      <path d="M58 109 L52 204" stroke="rgba(201,168,76,0.25)" strokeWidth="1.2" />
-      <path d="M72 109 L74 204" stroke="rgba(201,168,76,0.25)" strokeWidth="1.2" />
-      <path d="M84 112 L96 196" stroke="rgba(201,168,76,0.25)" strokeWidth="1.2" />
+      <path
+        d="M42 104 Q65 112 88 104 L104 192 Q82 205 65 207 Q48 205 26 192 Z"
+        fill="#a86488"
+      />
+      <path
+        d="M46 112 L34 196"
+        stroke="rgba(201,168,76,0.25)"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M58 109 L52 204"
+        stroke="rgba(201,168,76,0.25)"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M72 109 L74 204"
+        stroke="rgba(201,168,76,0.25)"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M84 112 L96 196"
+        stroke="rgba(201,168,76,0.25)"
+        strokeWidth="1.2"
+      />
       {/* Hem */}
-      <path d="M26 192 Q65 207 104 192" stroke="#c9a84c" strokeWidth="3" fill="none" strokeLinecap="round" />
-      <path d="M28 186 Q65 200 102 186" stroke="rgba(201,168,76,0.45)" strokeWidth="1.5" fill="none" />
+      <path
+        d="M26 192 Q65 207 104 192"
+        stroke="#c9a84c"
+        strokeWidth="3"
+        fill="none"
+        strokeLinecap="round"
+      />
+      <path
+        d="M28 186 Q65 200 102 186"
+        stroke="rgba(201,168,76,0.45)"
+        strokeWidth="1.5"
+        fill="none"
+      />
       {/* Arms */}
-      <path d="M44 82 Q30 98 28 122" stroke="#fde8ec" strokeWidth="8" strokeLinecap="round" />
-      <path d="M86 82 Q100 98 102 122" stroke="#fde8ec" strokeWidth="8" strokeLinecap="round" />
+      <path
+        d="M44 82 Q30 98 28 122"
+        stroke="#fde8ec"
+        strokeWidth="8"
+        strokeLinecap="round"
+      />
+      <path
+        d="M86 82 Q100 98 102 122"
+        stroke="#fde8ec"
+        strokeWidth="8"
+        strokeLinecap="round"
+      />
       {/* Bangles */}
-      <circle cx="29" cy="118" r="5.5" fill="none" stroke="#c9a84c" strokeWidth="2.2" />
-      <circle cx="29" cy="124" r="5.5" fill="none" stroke="#e8c96a" strokeWidth="1.5" />
-      <circle cx="101" cy="118" r="5.5" fill="none" stroke="#c9a84c" strokeWidth="2.2" />
-      <circle cx="101" cy="124" r="5.5" fill="none" stroke="#e8c96a" strokeWidth="1.5" />
+      <circle
+        cx="29"
+        cy="118"
+        r="5.5"
+        fill="none"
+        stroke="#c9a84c"
+        strokeWidth="2.2"
+      />
+      <circle
+        cx="29"
+        cy="124"
+        r="5.5"
+        fill="none"
+        stroke="#e8c96a"
+        strokeWidth="1.5"
+      />
+      <circle
+        cx="101"
+        cy="118"
+        r="5.5"
+        fill="none"
+        stroke="#c9a84c"
+        strokeWidth="2.2"
+      />
+      <circle
+        cx="101"
+        cy="124"
+        r="5.5"
+        fill="none"
+        stroke="#e8c96a"
+        strokeWidth="1.5"
+      />
     </svg>
   );
 }
@@ -88,13 +204,36 @@ function GroomAvatar() {
     >
       {/* Turban */}
       <path d="M46 30 Q65 10 84 30 L82 44 Q65 34 48 44 Z" fill="#3d1838" />
-      <path d="M46 30 Q65 14 84 30" stroke="#c9a84c" strokeWidth="2" fill="none" />
+      <path
+        d="M46 30 Q65 14 84 30"
+        stroke="#c9a84c"
+        strokeWidth="2"
+        fill="none"
+      />
       {/* Kalgi */}
-      <path d="M78 20 Q88 10 86 18" stroke="#c9a84c" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+      <path
+        d="M78 20 Q88 10 86 18"
+        stroke="#c9a84c"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        fill="none"
+      />
       <circle cx="86" cy="18" r="3" fill="#e8c96a" />
       {/* Sehra strings */}
-      <path d="M48 44 Q42 60 44 80" stroke="rgba(201,168,76,0.7)" strokeWidth="1.5" strokeDasharray="3,2.5" strokeLinecap="round" />
-      <path d="M52 44 Q46 62 48 82" stroke="rgba(201,168,76,0.5)" strokeWidth="1" strokeDasharray="3,2.5" strokeLinecap="round" />
+      <path
+        d="M48 44 Q42 60 44 80"
+        stroke="rgba(201,168,76,0.7)"
+        strokeWidth="1.5"
+        strokeDasharray="3,2.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M52 44 Q46 62 48 82"
+        stroke="rgba(201,168,76,0.5)"
+        strokeWidth="1"
+        strokeDasharray="3,2.5"
+        strokeLinecap="round"
+      />
       {/* Head */}
       <ellipse cx="65" cy="56" rx="19" ry="20" fill="#fde8ec" />
       {/* Eyes */}
@@ -103,18 +242,37 @@ function GroomAvatar() {
       <circle cx="57" cy="55" r="1.8" fill="#2d1228" />
       <circle cx="73" cy="55" r="1.8" fill="#2d1228" />
       {/* Moustache */}
-      <path d="M59 64 Q65 68 71 64" stroke="#3d1838" strokeWidth="2.2" strokeLinecap="round" fill="none" />
+      <path
+        d="M59 64 Q65 68 71 64"
+        stroke="#3d1838"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+        fill="none"
+      />
       {/* Earrings */}
       <circle cx="46" cy="58" r="2.5" fill="#c9a84c" />
       <circle cx="84" cy="58" r="2.5" fill="#c9a84c" />
       {/* Neck */}
       <rect x="60" y="74" width="10" height="10" rx="2" fill="#fde8ec" />
       {/* Sherwani collar */}
-      <path d="M50 84 L65 96 L80 84" stroke="#c9a84c" strokeWidth="1.5" fill="none" strokeLinejoin="round" />
+      <path
+        d="M50 84 L65 96 L80 84"
+        stroke="#c9a84c"
+        strokeWidth="1.5"
+        fill="none"
+        strokeLinejoin="round"
+      />
       {/* Sherwani body */}
       <path d="M42 84 Q65 78 88 84 L90 172 Q65 178 40 172 Z" fill="#261028" />
       {/* Centre seam */}
-      <line x1="65" y1="84" x2="65" y2="172" stroke="rgba(201,168,76,0.35)" strokeWidth="1" />
+      <line
+        x1="65"
+        y1="84"
+        x2="65"
+        y2="172"
+        stroke="rgba(201,168,76,0.35)"
+        strokeWidth="1"
+      />
       {/* Buttons */}
       <circle cx="65" cy="100" r="2.5" fill="#c9a84c" />
       <circle cx="65" cy="114" r="2.5" fill="#c9a84c" />
@@ -122,13 +280,36 @@ function GroomAvatar() {
       <circle cx="65" cy="142" r="2.5" fill="#c9a84c" />
       <circle cx="65" cy="156" r="2.5" fill="#c9a84c" />
       {/* Gold trim */}
-      <path d="M42 84 Q65 79 88 84" stroke="#c9a84c" strokeWidth="1.8" fill="none" />
-      <path d="M40 172 Q65 178 90 172" stroke="#c9a84c" strokeWidth="2.2" fill="none" />
+      <path
+        d="M42 84 Q65 79 88 84"
+        stroke="#c9a84c"
+        strokeWidth="1.8"
+        fill="none"
+      />
+      <path
+        d="M40 172 Q65 178 90 172"
+        stroke="#c9a84c"
+        strokeWidth="2.2"
+        fill="none"
+      />
       {/* Churidar */}
-      <path d="M40 172 L44 230 L60 230 L65 196 L70 230 L86 230 L90 172 Q65 178 40 172" fill="#1a0818" />
+      <path
+        d="M40 172 L44 230 L60 230 L65 196 L70 230 L86 230 L90 172 Q65 178 40 172"
+        fill="#1a0818"
+      />
       {/* Arms */}
-      <path d="M42 88 Q28 106 26 132" stroke="#261028" strokeWidth="10" strokeLinecap="round" />
-      <path d="M88 88 Q102 106 104 132" stroke="#261028" strokeWidth="10" strokeLinecap="round" />
+      <path
+        d="M42 88 Q28 106 26 132"
+        stroke="#261028"
+        strokeWidth="10"
+        strokeLinecap="round"
+      />
+      <path
+        d="M88 88 Q102 106 104 132"
+        stroke="#261028"
+        strokeWidth="10"
+        strokeLinecap="round"
+      />
       {/* Hands */}
       <ellipse cx="26" cy="135" rx="7" ry="5" fill="#fde8ec" />
       <ellipse cx="104" cy="135" rx="7" ry="5" fill="#fde8ec" />
@@ -230,7 +411,7 @@ export default function CoupleAnimation() {
                 opacity: labelOpacity,
               }}
             >
-              Manisha
+              Mahesh
             </motion.p>
           </motion.div>
 
@@ -283,7 +464,7 @@ export default function CoupleAnimation() {
                 opacity: labelOpacity,
               }}
             >
-              Arun
+              Shilpa
             </motion.p>
           </motion.div>
         </div>

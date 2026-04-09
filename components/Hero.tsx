@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import FloatingPetals from "./FloatingPetals";
 
-const BRIDE = "Manisha";
-const GROOM = "Arun";
+const BRIDE = "Mahesh";
+const GROOM = "Shilpa";
 
 function SplitText({
   text,
@@ -56,10 +56,7 @@ export default function Hero() {
       style={{ height: "100svh", minHeight: 560 }}
     >
       {/* Parallax background layer */}
-      <motion.div
-        className="absolute inset-0 z-0"
-        style={{ y: bgY }}
-      >
+      <motion.div className="absolute inset-0 z-0" style={{ y: bgY }}>
         {/* Radial glow */}
         <div
           className="absolute inset-0"
@@ -144,7 +141,10 @@ export default function Hero() {
         {/* Bride name */}
         <div
           className="font-display font-light leading-none mb-0"
-          style={{ fontSize: "clamp(3.2rem, 10vw, 8rem)", color: "var(--cream)" }}
+          style={{
+            fontSize: "clamp(3.2rem, 10vw, 8rem)",
+            color: "var(--cream)",
+          }}
         >
           <SplitText text={BRIDE} delay={0.5} />
         </div>
@@ -163,7 +163,10 @@ export default function Hero() {
         {/* Groom name */}
         <div
           className="font-display font-light leading-none mb-8"
-          style={{ fontSize: "clamp(3.2rem, 10vw, 8rem)", color: "var(--cream)" }}
+          style={{
+            fontSize: "clamp(3.2rem, 10vw, 8rem)",
+            color: "var(--cream)",
+          }}
         >
           <SplitText text={GROOM} delay={0.9} />
         </div>
@@ -195,7 +198,8 @@ export default function Hero() {
           className="font-body font-light text-xs tracking-[0.22em] uppercase"
           style={{ color: "var(--gold)" }}
         >
-          29 April&nbsp;&nbsp;·&nbsp;&nbsp;30 April&nbsp;&nbsp;·&nbsp;&nbsp;1 May 2026&nbsp;&nbsp;·&nbsp;&nbsp;New Delhi
+          4 May&nbsp;&nbsp;·&nbsp;&nbsp;5 May&nbsp;&nbsp;·&nbsp;&nbsp;7 May
+          2026&nbsp;&nbsp;·&nbsp;&nbsp;Kushinagar, Uttar Pradesh
         </motion.p>
       </motion.div>
 
@@ -207,7 +211,9 @@ export default function Hero() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
         style={{ color: "var(--cream-muted)" }}
       >
-        <span className="font-body text-[10px] tracking-[0.3em] uppercase">Scroll</span>
+        <span className="font-body text-[10px] tracking-[0.3em] uppercase">
+          Scroll
+        </span>
         <div
           className="w-px h-10 origin-top"
           style={{
