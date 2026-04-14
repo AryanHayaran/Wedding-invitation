@@ -117,7 +117,7 @@ export default function PersonalMessage({
           className="mt-8 font-display italic gold-text"
           style={{ fontSize: "clamp(1.2rem, 3vw, 1.6rem)" }}
         >
-          Mahesh &amp; Shilpa
+          Rahul &amp; Aradhana
         </motion.div>
       </GlassCard>
     </section>

@@ -13,16 +13,16 @@ const events = [
     title: "Tilak Ceremony",
     date: "1 May 2026",
     time: "Afternoon",
-    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
+    venue: "8, Purani Najhai, Uttar Pradesh",
     icon: "🪔",
     description:
       "The auspicious beginning marked by prayers and blessings, officially commencing the joyous wedding festivities.",
   },
   {
     title: "Haldi & Mehndi",
-    date: "4 May 2026",
+    date: "2 May 2026",
     time: "Evening",
-    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
+    venue: "Dev Tent House, outside Unnao Gate, near Tube well, Jhansi",
     icon: "🌿",
     description:
       "A vibrant celebration of colors and tradition. Join us for the playful haldi rituals and beautiful mehndi artistry.",
@@ -31,7 +31,7 @@ const events = [
     title: "Wedding Ceremony",
     date: "5 May 2026",
     time: "8:00 PM onwards",
-    venue: "Paterha Maglpur, Post Dandopur, Kushinagar, Uttar Pradesh",
+    venue: "Chichli, Gadarwara Madhya Pradesh",
     icon: "💍",
     description:
       "The beautiful union of two souls. An evening of sacred vows, traditional rituals, and unforgettable memories.",
@@ -111,9 +111,8 @@ export default function EventTimeline() {
             key={event.title}
             delay={i * 0.12}
             glow={event.featured}
-            className={`relative flex flex-col p-8 text-center ${
-              event.featured ? "md:-translate-y-4 md:scale-[1.03]" : ""
-            }`}
+            className={`relative flex flex-col p-8 text-center ${event.featured ? "md:-translate-y-4 md:scale-[1.03]" : ""
+              }`}
           >
             {event.featured && (
               <div

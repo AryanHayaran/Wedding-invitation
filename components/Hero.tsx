@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import FloatingPetals from "./FloatingPetals";
 
-const BRIDE = "Mahesh";
-const GROOM = "Shilpa";
+const BRIDE = "Rahul";
+const GROOM = "Aradhana";
 
 function SplitText({
   text,

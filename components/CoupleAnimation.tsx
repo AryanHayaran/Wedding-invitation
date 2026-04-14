@@ -411,7 +411,7 @@ export default function CoupleAnimation() {
                 opacity: labelOpacity,
               }}
             >
-              Mahesh
+              Aradhana
             </motion.p>
           </motion.div>
 
@@ -464,7 +464,7 @@ export default function CoupleAnimation() {
                 opacity: labelOpacity,
               }}
             >
-              Shilpa
+              Rahul
             </motion.p>
           </motion.div>
         </div>

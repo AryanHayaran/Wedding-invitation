@@ -115,8 +115,7 @@ export default function Countdown() {
         className="font-body text-sm mb-12 text-center"
         style={{ color: "var(--cream-muted)" }}
       >
-        5 May 2026 · 8:00 PM · Paterha Maglpur, Post Dandopur, District
-        Kushinagar, Uttar Pradesh
+        5 May 2026 · 8:00 PM · Chichli, Gadarwara Madhya Pradesh
       </motion.p>
 
       {timeLeft !== null && (

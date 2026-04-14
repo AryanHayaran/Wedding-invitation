@@ -18,9 +18,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Mahesh & Shilpa — Wedding Invitation",
+  title: "Rahul & Aradhana — Wedding Invitation",
   description:
-    "Join us to celebrate the wedding of Mahesh and Shilpa across three joyful events in New Delhi.",
+    "Join us to celebrate the wedding of Rahul and Aradhana across three joyful events in New Delhi.",
 };
 
 export default function RootLayout({
