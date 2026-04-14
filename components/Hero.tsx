@@ -197,9 +197,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 1.7 }}
           className="font-body font-light text-xs tracking-[0.22em] uppercase"
           style={{ color: "var(--gold)" }}
-        >
-          4 May&nbsp;&nbsp;·&nbsp;&nbsp;5 May&nbsp;&nbsp;·&nbsp;&nbsp;7 May
-          2026&nbsp;&nbsp;·&nbsp;&nbsp;Kushinagar, Uttar Pradesh
+        >        
         </motion.p>
       </motion.div>
 
